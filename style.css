@@ -1,0 +1,249 @@
+body{
+    background-image: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%) ;
+}
+
+
+li  {
+    list-style-type: none;
+    padding: 12px;
+    font-size: 17px;
+}
+
+.div-list {
+    padding-top: 12px;
+    align-items: center;
+}
+
+.header-btn {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn-download {
+    background-color: #F54748;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+
+}
+
+.trust {
+    background-color: #fee6e6;
+    border-radius: 14px;
+    border: none;
+    width: 145px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.inner-text {
+    font-size: 14px;
+}
+
+.hero-text {
+    font-size: 53px;
+    font-weight: 800;
+}
+
+.styled-text-1 {
+    color:  #F54748;
+}
+.styled-text-2 {
+    color:  #FDC55E;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+.font-17 {
+    font-size: 17px;
+}
+.search {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 440px;
+    display: flex;
+}
+.input-search {
+    border: none;
+    width: 100%;
+}
+.search-img {
+    position: relative;
+    top: 5px;
+    padding-right: 6px;
+}
+
+.offer-text {
+    font-size: 43px;
+    font-weight: 800;
+    margin-bottom: 2px!important;
+}
+.offer-inner-text {
+    white-space: pre-line;
+}
+.card {
+    background-image: linear-gradient(179.69deg,#FFF 0%, #F54748 303.75%);
+    width: 100%;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.cards-col {
+    display: flex;
+    padding-top: 45px;
+}
+
+.kebab {
+    font-size: 24px;
+    color: #F54748;
+    font-weight: 700;
+}
+
+.btn-order {
+    background-color: #F54748;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 155px;
+    font-size: 18px;
+}
+
+.btn-div {
+    position: relative;
+    top: 15px;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #F54748; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+  }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  .icon-ham {
+    font-size: 38px!important;
+    position: relative;
+    top: 30px;
+    left: 42px;
+  }
+
+@media screen and (max-width: 1024px) { 
+    .cards-col {
+        display: block;
+    }
+    .c-n {
+        display: none;
+    }
+    .girl, .list-col, .header-btn{
+        display: none;
+    }
+
+    .search {
+        width: 350px;
+    }
+    .hero {
+        padding-bottom: 130px;
+    }
+    .dash {
+        left: -34px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+   .side{
+    display: none;
+   }
+}
+
+.food-pics {
+    position: relative;
+    bottom: 245px;
+    width: 100%;
+    text-align: center;
+}
+
+.fp-1 {
+    position: relative;
+    bottom: 135px;
+    right: 19px;
+}
+
+.fp-4 {
+    position: relative;
+    bottom: 123px;
+    left: 23px;
+}
+
+.fp-3 {
+    position: relative;
+    left: 78px;
+    bottom: 45px;
+}
+.fire {
+    position: relative;
+    top: 28px;
+}
+
+.greens {
+    position: relative;
+    top: 28px;
+    text-align: center;
+}
+.green-img {
+    position: relative;
+    left: 165px;
+}
+.hero-div {
+    position: relative;
+    bottom: 168px;
+}
+
+.hero {
+    margin-bottom: -150px;
+}
+
+.dash {
+    position: relative;
+    left: 54px;
+}
+.dash-div {
+    position: relative;
+    bottom: 19px;
+}
